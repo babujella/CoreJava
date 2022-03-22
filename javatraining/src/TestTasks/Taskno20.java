@@ -30,6 +30,15 @@ public class Taskno20 {
 			Object number=obj.previous();
 			System.out.println(number);
 		}
+		ListIterator obj1=num.listIterator(num.size());
+		while(obj1.hasNext()) {
+			Object number1=obj1.hasNext();
+			System.out.println(number1);
+		}
+		System.out.println("   Index  ");
+		ListIterator obj2=num.listIterator(num.size());
+		System.out.println("Next index :"+ obj2.nextIndex());
+		System.out.println("Previous index :"+obj2.previousIndex());
 	}
 
 }

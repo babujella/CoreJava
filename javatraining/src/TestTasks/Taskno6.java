@@ -26,9 +26,10 @@ class Checks {
 		}
 	}
 	public void converter(String userDate) {
-		DateTimeFormatter obj1= DateTimeFormatter.ofPattern("uuuu-MM-dd HH:mm:ssZ");
+		DateTimeFormatter obj1= DateTimeFormatter.ofPattern("uuuu-MM-dd HH:mm:ss");
 		LocalDateTime myDate = LocalDateTime.parse(userDate, obj1);
-		System.out.println(obj.toString());
+		System.out.println(myDate);
 	}
 }
+
 

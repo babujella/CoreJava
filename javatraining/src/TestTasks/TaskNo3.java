@@ -4,10 +4,10 @@ package TestTasks;
 	/* With help of an anonymous inner class, implement any abstract method of the
 	 * interface. Observe on working of anonymous Inner class here.
 	 */
-	interface MyClass{
+	interface MyClasss{
 		abstract void myMethod(int no,String name);
 	}
-	class Anonymus implements MyClass{
+	class Anonymus implements MyClasss{
 		public void myMethod(int no,String name) {
 			System.out.println(no+" "+ name);
 		}

@@ -7,10 +7,9 @@ public class Task6 {
 		Scanner sc=new Scanner(System.in);
 		Checks checks=new Checks();
 		System.out.println("Enter date to check :");
-		String date=sc.next();
+		String date=sc.nextLine();
 		checks.earlierOrNot(date);
 		checks.AfterOrNot(date);
 		checks.converter(date);
 	}
 }
-
